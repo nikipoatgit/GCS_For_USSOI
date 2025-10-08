@@ -1,6 +1,16 @@
 # GCS_ground-control-station_For_ussoi
-> Note: There is not Authentication of API requests. `yet to implement `
-*  See https://github.com/nikipoatgit/GCS_For_USSOI for Android Client Implementation.
+-  Note: There is not Authentication of API requests. `yet to implement `
+> **⚠️ Important Note:**
+> *  See https://github.com/nikipoatgit/ussoi_camfeed for Android Client  
+> *  See https://github.com/nikipoatgit/GCS_For_USSOI for Host Implementation
+
+#### Future Updates :
+* nice web ui 
+* ability to add turn server and self host one on (tcp only if tunnel don't support udp )
+* Basic authentication and multi client support  
+* api access based on role  
+* MSE + Websocket (this will take time as i have to build it from scratch )
+
 ## 📑 Table of Contents
 
 - [System Architecture](#-system-architecture)
@@ -10,9 +20,10 @@
   - [Host WS](#1-streaming-api-wsipstreaming)
   - [Telemetry (GCS)](#1-streaming-api-wsipstreaming)
 - [Getting Started](#-getting-started)
-- [Notes](#-notes)
 ---
-
+## Tunnel Setup Example 
+This is tutorial video:  https://youtu.be/BnWfbv7Fy-k?si=R0Wx2TWKwuTyaIH1 by 
+`Piyush Garg` to setup Basic tunnel with cloudflare if you own a domain then watch from `11:25 min`.
 ##  System Architecture
 ![GCS FLOW CHART IMAGE ](doc/FlowChartDjangoBackend.png)
 
@@ -44,4 +55,7 @@ In `core/streaming.py` Django Channels are used with two groups :
 
 ![GCSDjangoGroups](doc/GCSDjangoGroups.png)
         
-...
+## Get Started 
+![webpageDjabgoGCS](doc/webpageDjabgoGCS.png)
+![webpage2DjabgoGCS](doc/webpage2DjabgoGCS.png)
+### end of file
