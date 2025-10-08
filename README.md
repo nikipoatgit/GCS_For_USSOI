@@ -14,7 +14,7 @@
 ---
 
 ##  System Architecture
-![GCS FLOW CHART IMAGE ](doc\FlowChartDjangoBackend.png)  TODO : change image 
+![GCS FLOW CHART IMAGE ](doc/FlowChartDjangoBackend.png)
 
 ## Django 
 The files contain main project server_manager which handles all http and WebSocket (WS) routing it also contains app name core which contains streaming.py and telemetry.py files to handle logic .
@@ -42,6 +42,6 @@ The logic is handel by `core/telemetry.py` it is also responsible for creating `
 ## Django Channels 
 In `core/streaming.py` Django Channels are used with two groups :
 
-![GCSDjangoGroups](doc\GCSDjangoGroups.png)
+![GCSDjangoGroups](doc/GCSDjangoGroups.png)
         
 ...
