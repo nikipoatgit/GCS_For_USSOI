@@ -6,7 +6,7 @@
 
 #### Future Updates :
 * nice web ui 
-![GCS FLOW CHART IMAGE ](doc/UpdateUI.png)
+![GCS FLOW CHART IMAGE ](doc/NEWUI.png)
 * ability to add turn server and self host one on (tcp only if tunnel don't support udp )
 * Basic authentication and multi client support  
 * api access based on role  
